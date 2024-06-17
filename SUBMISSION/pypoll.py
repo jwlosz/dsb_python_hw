@@ -52,3 +52,5 @@ output += last_line
 
 with(open("PyPoll_output.txt", 'w') as f):
     f.write(output)
+
+print(output)
